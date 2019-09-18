@@ -66,7 +66,7 @@ class App extends React.Component {
   }
   //**********function to make an API call to yelp through proxy server */
   makeApiRequest = () => {
-    axios.post('http://localhost:3002/',{
+    axios.post('http://localhost:3001/',{
       latitude : this.state.lat,
       longitude : this.state.long
     })
