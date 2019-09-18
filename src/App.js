@@ -133,7 +133,7 @@ class App extends React.Component {
               <Map
                 center={{ lat :  this.state.lat, lng :  this.state.long }}
                 height='300px'
-                zoom={14}
+                zoom={15}
                 list={this.state.restaurants}
                 boundsChange={this.getCurrentLocation}
               />
