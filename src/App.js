@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Map from './components/mapComponent/Map'
 import Autocomplete from 'react-google-autocomplete'
 import RestaurantList from './components/restaurantComponent/RestaurantList'

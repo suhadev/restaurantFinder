@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDom from 'react-dom'
 import styled from 'styled-components'
 import RestaurantCard from './RestaurantCard'
 

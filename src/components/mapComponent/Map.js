@@ -1,7 +1,6 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react'
 import markerImage from './marker.png'
-import './map.css'
 class Map extends React.Component{
 
     constructor(props){
