@@ -8,8 +8,6 @@ app.use(bodyParser.urlencoded())
 app.use(bodyParser.json())
 app.use(cors())
 app.post('/',(req,res)=>{
-    //console.log(req.body)
-    //console.log(res)
     let lat = req.body.latitude
     let long = req.body.longitude
     let config = {
@@ -21,10 +19,10 @@ app.post('/',(req,res)=>{
         }
     }
     axios.get(`https://api.yelp.com/v3/businesses/search?latitude=${lat}&longitude=${long}`,config) .then((response)=>{
-      console.log(response.data)
+
       res.send(response.data)
     }).catch((err)=>{
-      console.log(err)
+      res.send(err)
     })
 })
 app.listen(port,()=>{console.log("listening")})
