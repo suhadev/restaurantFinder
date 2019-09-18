@@ -10,6 +10,6 @@ Clone the repository into your local machine
  
  Run the proxy server in port 3001 using the command **PORT=3001 node server.js**
  
- Navigate one folder up using **cd .**
+ Navigate one folder up using **cd ..**
  
  Run the react app using **npm start**
